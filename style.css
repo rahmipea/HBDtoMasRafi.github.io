@@ -90,7 +90,7 @@ h4 {
 }
 
 .card:hover .imgBox {
-	transform: rotateY(-120deg);
+	transform: rotateY(-110deg);
 }
 
 .card:hover .bark {
@@ -104,16 +104,19 @@ h4 {
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
-	padding: 0 8 0 20px;
+	padding: 0 0 0 10px;
 	z-index: -1;
-	margin-top: 15px;
+	margin-top: 8px;
+	margin-right: 10px;
 }
 
 .card .details p {
 	font-size: 10px;
 	line-height: 9px;
 	transform: rotate(-2deg);
-	padding: 0 8 0 15px;
+	padding: 0 0 0 15px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .card .details h4 {
