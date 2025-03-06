@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.cdnfonts.com/css/birthday-2');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 body {
-	font-family: 'Indie Flower', cursive !important;
+	font-family: 'Birthday', sans-serif, cursive !important;
   background: #FDE3A7; /*CAPE HONEY*/
 	margin: 0px;
 	padding: 0px;
