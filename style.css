@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.cdnfonts.com/css/birthday-2');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
 
 body {
-	font-family: 'Birthday', sans-serif, cursive !important;
+	font-family: 'Helvetica Neue', cursive !important;
   background: #FDE3A7; /*CAPE HONEY*/
 	margin: 0px;
 	padding: 0px;
@@ -103,7 +104,7 @@ h4 {
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 20px;
 	z-index: -1;
 	margin-top: 20px;
 }
