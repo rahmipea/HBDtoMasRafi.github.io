@@ -14,7 +14,7 @@ body {
 
 h4 {
 	font-size: 12px;
-	line-height: 5px;
+	line-height: 10px;
 	font-family: 'Amatic SC', cursive !important;
 }
 
@@ -26,13 +26,13 @@ h4 {
 	color: #013243; /*SHERPA BLUE*/
 	position: absolute;
 	top: 10%;
-	left: 50%;
+	left: 10%;
 	width: 500px;
 	height: 600px;
 	background: #e0e1dc;
 	transform-style: preserve-3d;
 	transform: translate(-50%,-50%) perspective(2000px);
-	box-shadow: inset 100px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
+	box-shadow: inset 50px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
 	transition: 1s;
 }
 
