@@ -111,9 +111,9 @@ h4 {
 
 .card .details p {
 	font-size: 10px;
-	line-height: 8px;
+	line-height: 9px;
 	transform: rotate(-2deg);
-	padding: 0 0 0 10px;
+	padding: 0 0 0 15px;
 }
 
 .card .details h4 {
