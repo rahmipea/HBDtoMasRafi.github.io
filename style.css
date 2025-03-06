@@ -13,8 +13,8 @@ body {
 }
 
 h4 {
-	font-size: 12px;
-	line-height: 10px;
+	font-size: 26px;
+	line-height: 1px;
 	font-family: 'Amatic SC', cursive !important;
 }
 
@@ -25,14 +25,14 @@ h4 {
 .card {
 	color: #013243; /*SHERPA BLUE*/
 	position: absolute;
-	top: 10%;
-	left: 10%;
-	width: 500px;
-	height: 600px;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 400px;
 	background: #e0e1dc;
 	transform-style: preserve-3d;
 	transform: translate(-50%,-50%) perspective(2000px);
-	box-shadow: inset 50px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
+	box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
 	transition: 1s;
 }
 
@@ -50,7 +50,7 @@ h4 {
 	height: 5px;
 	background: #BAC1BA;
 	transform-origin: bottom;
-	transform: skewX(-45deg);
+	transform: skewX(-40deg);
 }
 
 .card:after {
@@ -62,7 +62,7 @@ h4 {
 	height: 100%;
 	background: #92A29C;
 	transform-origin: left;
-	transform: skewY(-45deg);
+	transform: skewY(-40deg);
 }
 
 .card .imgBox {
@@ -83,8 +83,8 @@ h4 {
 }
 
 .card .imgBox img {
-	min-width: 500px;
-	max-height: 600px;
+	min-width: 300px;
+	max-height: 400px;
 }
 
 .card:hover .imgBox {
@@ -102,15 +102,15 @@ h4 {
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
-	padding: 0 0 0 5px;
+	padding: 0 0 0 10px;
 	z-index: -1;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .card .details p {
-	font-size: 12px;
-	line-height: 15px;
-	transform: rotate(-5deg);
+	font-size: 10px;
+	line-height: 10px;
+	transform: rotate(-10deg);
 	padding: 0 0 0 10px;
 }
 
