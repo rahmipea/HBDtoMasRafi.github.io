@@ -83,12 +83,12 @@ h4 {
 }
 
 .card .imgBox img {
-	min-width: 250px;
-	max-height: 400px;
+	min-width: 500px;
+	max-height: 600px;
 }
 
 .card:hover .imgBox {
-	transform: rotateY(-135deg);
+	transform: rotateY(-120deg);
 }
 
 .card:hover .bark {
@@ -102,16 +102,16 @@ h4 {
 	top: 0;
 	left: 0;
 	box-sizing: border-box;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 5px;
 	z-index: -1;
-	margin-top: 70px;
+	margin-top: 30px;
 }
 
 .card .details p {
-	font-size: 15px;
-	line-height: 5px;
-	transform: rotate(-10deg);
-	padding: 0 0 0 20px;
+	font-size: 12px;
+	line-height: 15px;
+	transform: rotate(-5deg);
+	padding: 0 0 0 10px;
 }
 
 .card .details h4 {
